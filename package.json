@@ -1,6 +1,7 @@
 {
   "name": "forfun",
   "version": "0.1.0",
+  "homepage": "https://annygutierrez.github.io/forfun/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
