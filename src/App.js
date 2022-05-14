@@ -2,13 +2,12 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import history from './utils/history';
 
 
 
 const App = () => {
   return (
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Routes>
               <Route exact path="/" element={<Home />} />
             </Routes>
