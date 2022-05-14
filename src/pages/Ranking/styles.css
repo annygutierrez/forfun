@@ -1,0 +1,12 @@
+.TechCertContainer {
+    display: flex;
+    padding-top: 5em;
+    flex-direction: column;
+    align-items: center
+}
+
+@media screen and (max-width: 550px) {
+    .TechCertContainer {
+        padding-top: 3em;
+    }
+}

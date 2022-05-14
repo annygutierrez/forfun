@@ -1,0 +1,14 @@
+.MenuTabContainer {
+    background-color: #EFEFEF;
+    width: 1000px;
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+    padding: 0.4em 0;
+}
+
+@media screen and (max-width: 1052px) {
+    .MenuTabContainer {
+        width: 90%;
+    }
+}

@@ -1,0 +1,11 @@
+.BodyMenuContainer {
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 632px) {
+    .BodyMenuContainer {
+        display: none;
+    }
+}

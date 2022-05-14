@@ -1,0 +1,10 @@
+.Socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 840px) {
+    .Socials {
+      margin-top: 2em;
+    }
+  }

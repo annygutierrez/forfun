@@ -1,0 +1,19 @@
+.CertItemContainer {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    padding: 2em 0;
+}
+
+@media screen and (max-width: 1052px) {
+    .CertItemContainer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .CertItemContainer {
+        flex-direction: column;
+        width: auto;
+    }
+}

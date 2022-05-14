@@ -1,0 +1,12 @@
+
+.SubMenuLines {
+    background-color: #EFEFEF;
+    width: 30%;
+    height: 6px;
+}
+
+@media screen and (max-width: 1052px) {
+    .SubMenuLines {
+        width: 10%;
+    }
+}

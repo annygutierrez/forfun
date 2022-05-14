@@ -1,0 +1,15 @@
+.MobileMenuContainer {
+    display: none;
+    background-color: white;
+    border-top: 2px solid #EFEFEF;
+    border-bottom: 2px solid #EFEFEF;
+}
+
+@media screen and (max-width: 632px) {
+    .MobileMenuContainer {
+      display: flex;
+      flex-direction: column;
+      z-index: 10000;
+      
+    }
+}

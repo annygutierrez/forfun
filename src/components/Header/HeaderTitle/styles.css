@@ -1,0 +1,61 @@
+.HeaderTitleContainer {
+    display: flex;
+    padding-bottom: 1.4em;
+  }
+  
+  .HeaderTitle {
+      font-family: 'Anton';
+      font-size: 48px;
+      display: flex;
+      flex: 3;
+  }
+  
+  .MenuButton {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .MenuButtonIcon {
+    width: 3em;
+    height: 1.8em;
+  }
+  
+  @media screen and (max-width: 840px) {
+      .HeaderTitle {
+        display: flex;
+        justify-content: center;
+      }
+  }
+  
+  @media screen and (max-width: 632px) {
+    .HeaderTitleContainer {
+      padding-right: 2em;
+      padding-left: 2em;
+    }
+    .MenuButton {
+        display: flex;
+        flex: 1em;
+        align-items: center;
+        justify-content: end;
+    }
+  
+    .HeaderTitle {
+      align-items: center;
+      margin: 0;
+    }
+  
+    .HeaderTitleBlank {
+      display: flex;
+      flex: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 440px) {
+    .HeaderTitle {
+      font-size: 33px;
+    }
+    .MenuButtonIcon {
+      width: 2em;
+      height: 1em;
+    }
+  }

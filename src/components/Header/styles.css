@@ -1,0 +1,17 @@
+.HeaderContainer {
+    display: flex;
+    padding: 1.4em 4em;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 840px) {
+    .HeaderContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 632px) {
+    .HeaderContainer {
+      padding: 1.4em 0em;
+    }
+  }

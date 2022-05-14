@@ -1,0 +1,12 @@
+.CertDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding-left: 5em;
+}
+
+@media screen and (max-width: 550px) {
+    .CertDescriptionContainer {
+        padding: 1em 2em;
+    }
+}
