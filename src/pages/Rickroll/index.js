@@ -1,5 +1,6 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import Cancel from '../../assets/cancel.svg';
+import './styles.css';
 
 const Rickroll = ({ action }) => {
     const vidRef=useRef();
@@ -21,7 +22,7 @@ const Rickroll = ({ action }) => {
                 </div>
             </div>
             <div style={{ display: 'flex', flex: 3, justifyContent: 'center' }}>
-                <video ref={vidRef} loop>
+                <video className='RickVideo' ref={vidRef} loop>
                     <source src={require('../../assets/rick.mp4')} type="video/mp4"/>
                     Your browser does not support the video functionality.
                 </video>

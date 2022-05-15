@@ -1,0 +1,9 @@
+.RickVideo {
+
+}
+
+@media screen and (max-width: 500px) {
+    .RickVideo {
+        width: 100%;
+    }
+}
