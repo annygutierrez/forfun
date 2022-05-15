@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/forfun/static/css/main.dcb8fb93.css",
-    "main.js": "/forfun/static/js/main.4580aa99.js",
+    "main.css": "/forfun/static/css/main.533bb22b.css",
+    "main.js": "/forfun/static/js/main.929c3c22.js",
     "static/js/787.d5f4a058.chunk.js": "/forfun/static/js/787.d5f4a058.chunk.js",
+    "static/media/rick.mp4": "/forfun/static/media/rick.46c40eb7cc1d2377aedc.mp4",
     "static/media/threekings.png": "/forfun/static/media/threekings.0f321732909c3bcfe415.png",
+    "static/media/nerve.png": "/forfun/static/media/nerve.a42c3edd1472c69e92f4.png",
     "static/media/ferris.png": "/forfun/static/media/ferris.8598895210f5782946c9.png",
     "static/media/lana.png": "/forfun/static/media/lana.c15bd528e9f4f091e14a.png",
     "static/media/axwell.png": "/forfun/static/media/axwell.d9e9bcfb159510a41ef6.png",
     "static/media/mcr.png": "/forfun/static/media/mcr.3793f243e6eea4081b81.png",
+    "static/media/Cuprum-Regular.ttf": "/forfun/static/media/Cuprum-Regular.91fd62ef7645f2da51d7.ttf",
+    "static/media/Cuprum-Bold.ttf": "/forfun/static/media/Cuprum-Bold.ba36211a5fc422a9f9cb.ttf",
     "static/media/poshlaya.png": "/forfun/static/media/poshlaya.e85761084d877809a40b.png",
+    "static/media/Cuprum-Italic.ttf": "/forfun/static/media/Cuprum-Italic.dd1f20de397cd538d4de.ttf",
     "static/media/young.png": "/forfun/static/media/young.cbac854ebff8a35b5ab5.png",
     "static/media/insta.svg": "/forfun/static/media/insta.97ec1ca3ea2feb6341b44e4334948fd2.svg",
+    "static/media/cancel.svg": "/forfun/static/media/cancel.a5b4d305300768404a347d4ec3327af3.svg",
     "static/media/github.svg": "/forfun/static/media/github.bcbaecf9a8147483e30a81e1bb1c155c.svg",
     "static/media/linkedin.svg": "/forfun/static/media/linkedin.f23b0cbd244f5ecb239d09852fdfc8ce.svg",
     "index.html": "/forfun/index.html",
     "static/media/twitter.svg": "/forfun/static/media/twitter.b1d48ff9a25749a42d3a7bf80ef725b6.svg",
     "static/media/menu.svg": "/forfun/static/media/menu.2d926885c9e7e939aed09a81a137fda6.svg",
     "static/media/link.svg": "/forfun/static/media/link.69783af230c5ce9c8104ca5f95ada6ed.svg",
-    "main.dcb8fb93.css.map": "/forfun/static/css/main.dcb8fb93.css.map",
-    "main.4580aa99.js.map": "/forfun/static/js/main.4580aa99.js.map",
+    "main.533bb22b.css.map": "/forfun/static/css/main.533bb22b.css.map",
+    "main.929c3c22.js.map": "/forfun/static/js/main.929c3c22.js.map",
     "787.d5f4a058.chunk.js.map": "/forfun/static/js/787.d5f4a058.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcb8fb93.css",
-    "static/js/main.4580aa99.js"
+    "static/css/main.533bb22b.css",
+    "static/js/main.929c3c22.js"
   ]
 }
