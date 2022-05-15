@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import Cancel from '../../assets/cancel.svg';
 
 const Rickroll = ({ action }) => {
+    const vidRef=useRef();
+
+    const Play = () => {
+        vidRef.current.play();
+    }
+
     return (
-        <div style={{ position: 'absolute', display: 'flex', width: '100vw', height: '100vh', zIndex: 1000000, backgroundColor: '#4E4BE7', flexDirection: 'column' }}>
+        <div onClick={Play} style={{ position: 'absolute', display: 'flex', width: '100vw', height: '100vh', zIndex: 1000000, backgroundColor: '#4E4BE7', flexDirection: 'column' }}>
             <div style={{ display: 'flex', flex: 1 }}>
                 <div>
 
@@ -15,7 +21,7 @@ const Rickroll = ({ action }) => {
                 </div>
             </div>
             <div style={{ display: 'flex', flex: 3, justifyContent: 'center' }}>
-                <video loop autoPlay>
+                <video ref={vidRef} loop>
                     <source src={require('../../assets/rick.mp4')} type="video/mp4"/>
                     Your browser does not support the video functionality.
                 </video>
