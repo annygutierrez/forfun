@@ -42,9 +42,11 @@ const Home = () => {
   return (
     <div style={{ backgroundColor: 'white', width: '100vw', height: '100vh' }}>
       {showRick && <Rickroll action={CloseRick} />}
-      <Header onNavigate={SelectItem} activePage={activeId} menuItems={MenuItems} />
-      <Body onNavigate={SelectItem} activePage={activeId} menuItems={MenuItems} />
-      <Footer />
+      {!showRick && (<>
+          <Header onNavigate={SelectItem} activePage={activeId} menuItems={MenuItems} />
+          <Body onNavigate={SelectItem} activePage={activeId} menuItems={MenuItems} />
+          <Footer />
+        </>)}
     </div>
   )
 }

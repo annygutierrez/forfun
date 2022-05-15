@@ -25,6 +25,7 @@
         padding-top: 3em;
     }
     .RankingDescription {
+        padding: 0 2em;
         width: auto;
     }
 }

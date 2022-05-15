@@ -1,0 +1,26 @@
+.HomePageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    flex-direction: column;
+    background-color: black;
+}
+
+.HomePageMessage {
+    color: white;
+    font-family: 'Anton';
+    font-size: 37px;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1052px) {
+    .HomePageMessage {
+        width: 90vw;
+        font-size: 27px;
+    }
+}
