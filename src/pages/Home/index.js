@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Body from '../Body';
-// import Footer from '../../components/Footer';
+import Rickroll from '../Rickroll';
 
 const MenuItems = [
   {
@@ -28,16 +29,22 @@ const MenuItems = [
 
 const Home = () => {
   const [activeId, setActiveId] = useState(0);
+  const [showRick, setShowRick] = useState(true);
 
     const SelectItem = (id) => {
        setActiveId(id);
     }
 
+    const CloseRick = () => {
+      setShowRick(false);
+    }
+
   return (
     <div style={{ backgroundColor: 'white', width: '100vw', height: '100vh' }}>
+      {showRick && <Rickroll action={CloseRick} />}
       <Header onNavigate={SelectItem} activePage={activeId} menuItems={MenuItems} />
       <Body onNavigate={SelectItem} activePage={activeId} menuItems={MenuItems} />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

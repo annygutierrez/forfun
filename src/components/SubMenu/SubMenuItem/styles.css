@@ -1,0 +1,13 @@
+.SubMenuItem {
+    font-family: 'Antonio';
+    font-size: 25px;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .SubMenuItem {
+        font-size: 18px;
+        padding: 0.4em;
+    }
+}

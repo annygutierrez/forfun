@@ -4,3 +4,19 @@
   box-sizing:border-box;
 }
 
+@font-face {
+  font-family: 'Cuprum';
+  src: local('Cuprum'), url(./fonts/Cuprum-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    font-weight: 900;
+    src: local('Cuprum'), url(./fonts/Cuprum-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    font-weight: 800;
+    src: local('Cuprum'), url(./fonts/Cuprum-Italic.ttf) format('truetype');
+}

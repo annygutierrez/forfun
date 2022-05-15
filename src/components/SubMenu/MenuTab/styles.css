@@ -1,4 +1,5 @@
 .MenuTabContainer {
+    display: flex;
     background-color: #EFEFEF;
     width: 1000px;
     border-radius: 6px;
@@ -10,5 +11,11 @@
 @media screen and (max-width: 1052px) {
     .MenuTabContainer {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 406px) {
+    .MenuTabContainer {
+        flex-direction: column;
     }
 }

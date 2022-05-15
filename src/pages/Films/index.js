@@ -16,6 +16,7 @@ const Films = () => {
                   image={item.icon}
                   link={item.link}
                   embeded={item.embeded}
+                  freeHeight={true}
                 />
               ))
           }

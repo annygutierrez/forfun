@@ -10,7 +10,7 @@ const CertTitle = ({ title, certLink }) => {
         </a>
     )
 
-    return <span style={{ fontFamily: 'Anton', fontSize: '25px' }}>{title}</span>
+    return <span style={{ fontFamily: 'Cuprum', fontSize: '25px', fontWeight: 900 }}>{title}</span>
 }
 
 export default CertTitle;
