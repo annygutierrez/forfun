@@ -13,7 +13,7 @@ const Music = () => {
             code: 0
         },
         {
-            name: 'Reviews',
+            name: 'Favorite Artists',
             code: 1
         },
         {

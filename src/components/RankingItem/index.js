@@ -3,10 +3,10 @@ import ItemIcon from './ItemIcon';
 import RankingDescription from './RankingDescription';
 import './styles.css';
 
-const RankingItem = ({ title, subtitle, description, type, image, link, embeded, freeHeight = false }) => {
+const RankingItem = ({ title, subtitle, description, type, image, link, embeded, freeHeight = false, rankingNum }) => {
     return (
         <div className="CertItemContainer">
-           <ItemIcon image={image} alt={title} freeHeight={freeHeight}/>
+           <ItemIcon rankingNum={rankingNum} image={image} alt={title} freeHeight={freeHeight}/>
            <RankingDescription
              title={title}
              certLink={link}

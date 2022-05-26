@@ -3,8 +3,17 @@ import Lana from '../../assets/lana.png';
 import Young from '../../assets/young.png';
 import Axwell from '../../assets/axwell.png';
 import MCRomance from '../../assets/mcr.png';
+import Nurnberg from '../../assets/nurnberg.png';
 
 export const RankingList = [
+    {
+        title: 'Biessensoŭnasć',
+        subtitle: 'Nürnberg',
+        description: "Youtube recommended me this song while looking for new post-soviet music and is my favorite slavic song ever. The first time a listened to this song I felt as if I were a 18 year old going by bus back home on a foggy and sunny day in 2005, very specific, but that’s exactly the image that came to my mind, and it felt like a hug.",
+        type: 'Post Punk',
+        icon: Nurnberg,
+        embeded: <iframe style={{ borderRadius: '12px', width: "100%", height: "80px" }} src="https://open.spotify.com/embed/track/2R1Yk6vm11P3pLIrtBR4eM?utm_source=generator&theme=0" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    },
     {
         title: 'Самый лучший эмо панк',
         subtitle: 'Poshlya Molly',
